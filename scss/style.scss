@@ -58,7 +58,10 @@
     --text-color: #2E2E2E;
     --bg-color: #EFBE50;
     --btn: #1CD4BE;
+    --mainly-red: #FBF8F2;
 }
+
+@import './header';
 
 *,
 *::before,
@@ -73,3 +76,15 @@ body {
     font-size: 18px;
 }
 
+.wrapper {
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 1340px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
