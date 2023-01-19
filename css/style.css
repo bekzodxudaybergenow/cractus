@@ -84,6 +84,17 @@
   cursor: pointer;
 }
 
+.main-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  max-width: 778px;
+  min-height: 667px;
+  background-color: var(--mainly-red);
+}
+
 *,
 *::before,
 *::after {
