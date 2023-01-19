@@ -1,8 +1,10 @@
 .header {
+    padding-top: 33px;
+}
+.header-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 33px;
 }
 
 .header-logo {
